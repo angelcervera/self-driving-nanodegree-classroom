@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+matplotlib = "==3.3.3"
+opencv-python = "==4.4.0.46"
+
+[dev-packages]
+pytest = "*"
+
+[requires]
+python_version = "3.8"
